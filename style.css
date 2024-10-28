@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #A6BABA;
+    font-family: "Ubuntu", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1dvh;
+    gap: 1dvw;
+    color: #051D37;
+    font-size: 15pt;
+}
+
+img{
+    width: 3dvw;
+}
+
+span{
+    display: flex;
+}
+
+#container-notas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5dvw;
+    padding: 5dvw;
+}
+
+#box-notas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2dvh;
+    background: #708A8F;
+    width: 40dvw;
+    height: 15dvh;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: #051D37;
+}
+
+#conteudo{
+    display: flex;
+    align-items: center;
+    gap: 1dvw;
+}
+
+#boxText{
+    width: 30dvw;
+    height: 3dvh;
+    font-size: 1.3rem;
+    color: #051D37;
+    background: #A6BABA;
+    border: solid 1px #051D37;
+    border-radius: 5px;
+    outline: 0;
+}
+
+#adicionar{
+    padding: 0.5dvh;
+    width: 2.5dvw;
+    background: #051D37;
+    color: #708A8F;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 4px;
+}
+
+#adicionar:hover{
+    background: #1C90C1;
+    color: #051D37;
+    transition: all 1s;
+    box-shadow: 0 0 10px #1C90C1
+}
+
+#box-res{
+    background: #708A8F;
+    border-radius: 4px;
+    width: 40dvw;
+}
+
+#lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1dvw;
+    color: #051D37;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
